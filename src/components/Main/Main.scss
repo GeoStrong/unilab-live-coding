@@ -1,0 +1,77 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+
+  &__title {
+    color: #191d63;
+    text-align: center;
+    font-family: Abhaya Libre;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px; /* 135.714% */
+  }
+
+  &-color__container {
+    width: 317px;
+    height: 145px;
+  }
+
+  &__list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  &__item {
+    width: 510px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    button {
+      width: 100%;
+      height: 100%;
+      background: #f4f3f6;
+      border: none;
+      border-radius: 8px;
+
+      &:focus {
+        background: #aba6b4;
+      }
+    }
+  }
+
+  &__variant {
+    position: absolute;
+    left: 15px;
+    display: block;
+    border-radius: 50%;
+    text-align: center;
+    width: 49px;
+    height: 49px;
+    background-color: #ede8e3;
+  }
+
+  &__button {
+    float: right;
+    border-radius: 8px;
+    opacity: 0.5;
+    background: #747475;
+    cursor: pointer;
+    color: #ede8e2;
+    font-family: Abhaya Libre;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 125% */
+    padding: 20px 80px;
+    outline: none;
+    border: none;
+  }
+}

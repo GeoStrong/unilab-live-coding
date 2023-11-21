@@ -1,0 +1,17 @@
+.result-main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &__element {
+    color: #000;
+    text-align: center;
+    font-family: Abhaya Libre;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px; /* 79.167% */
+  }
+}

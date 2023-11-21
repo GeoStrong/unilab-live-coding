@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 63px;
+  margin-top: 47px;
+
+  &__wrapper {
+    height: 35px;
+    padding: 5px 10px;
+    border-radius: 6.364px;
+    background: #f4f3f6;
+  }
+
+  &__element {
+    margin: 0;
+    color: #191d63;
+    font-family: Abhaya Libre;
+    font-size: 22.273px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22.273px; /* 100% */
+  }
+
+  &__title {
+    margin: 0;
+    color: #000;
+    font-family: Abhaya Libre;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 100% */
+  }
+}
