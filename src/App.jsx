@@ -1,7 +1,8 @@
 import './index.scss';
+import Test from './Test';
 
 const App = () => {
-  return <></>;
+  return <Test />;
 };
 
 export default App;
